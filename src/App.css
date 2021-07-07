@@ -1,0 +1,54 @@
+.App {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.text-field {
+  width: 25%;
+  height: 7em;
+  background-color: #988db947;
+  border-radius: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 0.2em;
+}
+
+.result {
+  font-size: 3em;
+  margin: 0 0.2em  0.2em 0;
+}
+
+.input {
+  font-size: 1.5em;
+  margin-right: 0.5em;
+}
+
+.btnpannel {
+  width: 25%;
+}
+
+.button-row {
+  display: flex;
+  margin: 0.1em;
+}
+
+.button {
+  margin: 0.1em 0.2em;
+  flex: 1;
+  height: 5em;
+  color: black;
+  background-color: #988db9;
+  display: flex;
+  border-radius: 1em;
+  justify-content: center;
+  align-items: center;
+}
+
+
